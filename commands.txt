@@ -1,0 +1,28 @@
+    1  git --version
+    2  sudo yum -y update
+    3  sudo yum -y install git
+    4  git config --global user.name "ayazdandoost"
+    5  git config --global user.email ayazdandoost@yahoo.com
+    6  pwd
+    7  cd Insects are a class of invertebrates within the arthropod phylum that
+    8  have a chitinous exoskeleton, a three-part body (head, thorax, and abdomen),
+    9  pwd
+   10  cd /home/ec2-user/environment
+   11  ls
+   12  git status
+   13  pwd
+   14  git clone https://github.com/ayazdandoost/IT252.git
+   15  cd IT252
+   16  ls -a
+   17  pwd
+   18  git status
+   19  git commit -m "added information about birds, insects, and reptiles."
+   20  git add bird.txt
+   21  git status
+   22  git add insect.txt reptile.txt
+   23  git status
+   24  git commit -m "added information about birds and bees"
+   25  get push
+   26  git push
+   27  history
+   28  history >> commands.txt
